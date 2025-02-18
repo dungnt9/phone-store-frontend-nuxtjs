@@ -13,6 +13,9 @@ export default defineNuxtConfig({
       apiBase: 'http://localhost:3002'
     }
   },
+  devServer: {
+    port: 3003
+  },
 
   compatibilityDate: '2025-02-16'
 })
